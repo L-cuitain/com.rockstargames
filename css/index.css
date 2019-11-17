@@ -1,8 +1,11 @@
 .rockstar-top{
     width: 100%;
     height: 150px;
-    border: 1px solid red;
+    border: 1px solid red;   
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
 }
+
 
 .rockstar-top-title{
     width: 1505px;
@@ -15,17 +18,52 @@
 
 .rockstar-top-title ul{
     list-style-type: none;
+    margin-left: 261px;
 }
 
 .rockstar-top-title ul li{
-    width: 82px;
     height: 19px;
     float: left;
     margin-right: 20px;
     padding: 15px 4px;
 }
 
-.rockstar-top-title ul li a{
 
+.rockstar-top-title ul li a{
+    font-size: 15px;
+}
+
+
+.rockstar-right-login{
+    float: right;
+    width: 90px;
+    height: 25.6px;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: #000000;
+}
+
+.rockstar-right-login div{
+    float: right;
+    font-size: 7px;  
+    color: #777777;
+}
+
+
+.rockstar-right-login a{
+    float: right;
+    margin-left: 6px;
+    font-size: 7px;
+
+}
+
+
+
+.rockstar-right-sign{
+    color: #ffffff;
+}
+
+.rockstar-right-join{
+    color: #F0A000;
 }
 
