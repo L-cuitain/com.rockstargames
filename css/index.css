@@ -385,10 +385,11 @@ body{
 /* 新闻内容 */
 .news-main{
     float: left;
-    width: 1475px;
-    height: 2542px;
+    width: 1467px;
+    height: 2411px;
     padding: 15px 7.5px 0 15px;
-    background-image: url(../img/background7.jpg);
+    margin-bottom: 35px;
+    background-image: url(../img/background2.jpg);
 }
 
 
@@ -410,10 +411,10 @@ body{
 
 .mainone-body-head{
     float: left;
-    width: 380px;
+    width: 407px;
     height: 19.2px;
     /* padding: 0 15px; */
-    margin:0 358px 10px;
+    margin: 0px 361px 10px;
 }
 
 
@@ -432,7 +433,7 @@ body{
 .mainone-body-nav{
     float: left;
     width: 1060px;
-    height: 153px;
+    height: 80px;
     font-size: 54px;
     text-align: center;
     padding: 0 15px;
@@ -868,13 +869,13 @@ body{
 
 .mainfour-up-img{
     width: 323.5px;
-    height: 192px;
+    height: 175.5px;
     padding: 0 15px;
 }
 
 .mainfour-up-img img{
     width: 323.5px;
-    height: 181px;
+    height: 161px;
 }
 
 .mainfour-up-introduce{
@@ -908,7 +909,7 @@ body{
 
 
 
-/* 主体3 下部 */
+/* 主体4 下部 */
 .mainfour-down{
     width: 333.5px;
     height: 36px;
@@ -1282,14 +1283,14 @@ body{
     left: 370px;
     float: left;
     width: 1090px;
-    height: 884px;
+    height: 850px;
     background-color: #fff;
 }
 
 
 .maineight-body{
     width: 1090px;
-    height: 920px;
+    height: 770px;
     padding: 15px 0;
     border-bottom: 1px solid #dddddd;
 }
@@ -1318,7 +1319,7 @@ body{
 .maineight-body-nav{
     float: left;
     width: 1060px;
-    height: 153px;
+    height: 111px;
     font-size: 54px;
     text-align: center;
     padding: 0 15px;
@@ -1340,10 +1341,11 @@ body{
     font-weight: bold;
 }
 
-.maineight-body img{
+.maineight-body video{
     width: 1060px;
-    height: 596px;
+    height: 500px;
     padding: 0 15px 20px;
+    object-fit:fill;
 }
 
 
@@ -1392,6 +1394,7 @@ body{
 
 
 .maineight-body-options{
+    float: left;
     width: 1070px;
     height: 37px;
     padding: 6px 10px;
@@ -1428,3 +1431,7 @@ body{
 .maineight-body-options li a:hover{
     color: #000;
 }
+
+
+/* 特色游戏 */
+
