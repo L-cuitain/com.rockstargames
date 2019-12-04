@@ -20,12 +20,20 @@
 }
 
 
-/* 版心 */
+/* index页面版心 */
 .container{
   position: relative;
   margin: 0 auto;
   width: 1489px;
 }
+
+/* login页面版心 */
+.login-container{
+  position: relative;
+  margin: 0 auto;
+  width: 500px;
+}
+
 
 
 
