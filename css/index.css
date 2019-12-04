@@ -15,12 +15,9 @@ body{
 
 /* 顶部栏 */
 .rockstar-top{
-    /* float: left; */
+    float: left;
     width: 100%;
     height: 150px;
- 
-    /* background-image: url(../img/42.jpg);
-    background-repeat: no-repeat; */
 }
 
 
@@ -79,7 +76,6 @@ body{
     width: 90px;
     height: 25.6px;
     padding: 5px;
-    margin-right: 15px;
     margin-top: 6px;
     font-family: 'MyFont-lt';
     font-weight: bold;
@@ -139,7 +135,7 @@ body{
     float: left;
     width: 223px;
     height: 4px;
-    padding: 0px 15px;
+    /* padding: 0px 15px; */
 }
 
 .rockstar-since-left-nav{
@@ -172,20 +168,16 @@ body{
 
 
 .rockstar-since-right{
-    float: left;
-    width: 223px;
+    float: right;
     height: 4px;
-    padding: 0px 15px;
 }
 
 
 .rockstar-since-right-nav{
-    width: 222px;
     height: 19.2px;
     color: #ffffff;
     font-family: 'MyFont-bold';
     font-size: 11px;
-    /* margin-left: 90px; */
     text-align: right;
 }
 
@@ -321,14 +313,14 @@ body{
 }
 
 
-/* 新闻栏标题 */
+/* 新闻 */
 .rockstar-news{
     float: left;
     width: 100%;
-    height: 2619px;
+    height: 2531px;
 }
 
-
+/* 新闻栏标题 */
 .section-title{
     width: 100%;
     height: 35px;
@@ -389,7 +381,7 @@ body{
     height: 2411px;
     padding: 15px 7.5px 0 15px;
     margin-bottom: 35px;
-    background-image: url(../img/background2.jpg);
+    background-image: url(../img/background3.jpg);
 }
 
 
@@ -1433,5 +1425,357 @@ body{
 }
 
 
-/* 特色游戏 */
+/* 推荐游戏 */
+.featuredgame{
+    float: left;
+    width: 100%;
+    height: 635px;
+    margin-bottom: 35px;
+}
 
+/* 推荐游戏标题 */
+.featuredgame-section-title{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 30px;
+}
+
+.featuredgame-title-line-left{
+    float: left;
+    width: 618px;
+    height: 0px;
+    padding-top: 15px;
+    border-bottom: 1px solid #000000;
+}
+
+
+.featuredgame-section-title h2{
+    float: left;
+    width: 213.4px;
+    height: 27px;
+    padding: 5px 20px 0;
+    font-size: 25px;
+    font-family: "MyFont-lt";
+    font-weight: lighter;
+}
+
+
+.featuredgame-title-line-right{
+    float: left;
+    width: 492px;
+    height: 0px;
+    padding-top: 15px;
+    border-bottom: 1px solid #000000;
+}
+
+.featuredgame-title-more-right{
+    display: block;
+    float: left;
+    width: 53px;
+    height: 19px;
+    font-size: 12px;
+    padding: 7px 35px 4px;
+    line-height: 19px;
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+.featuredgame-title-more-right:hover{
+    transition: all 0.3s;
+    color: #fff;
+    background-color: #000000;
+}
+
+
+/* 推荐游戏列表 */
+.featuredgame-list{
+    width: 100%;
+    height: 573px;
+
+}
+
+.featuredgame-list li{
+    float: left;
+    width: 350px;
+    height: 548px;
+    margin-bottom: 35px;
+}
+
+
+.featuredgame-list-others{
+    padding-left: 29px;
+}
+
+
+.featuredgame-list-img{
+    position: relative;
+    bottom: 0px;
+    width: 350px;
+    transition: all 0.2s;
+}
+
+.featuredgame-list-img:hover{    
+    bottom: 4px;
+}
+
+
+.featuredgame-list-img img{
+    width: 350px;
+}
+
+.featuredgame-list-title{
+    width: 350px;
+    height: 14px;
+    padding-top: 14px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.featuredgame-list-tagline{
+    width: 350px;
+    height: 19.2px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'MyFont-lt';
+    line-height: 21px;
+}
+
+
+/* 推荐下载 */
+.featureddownload{
+    float: left;
+    width: 100%;
+    height: 324px;
+    margin-bottom: 50px;
+}
+
+
+/* 推荐下载标题 */
+.featureddownload-section-title{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 30px;
+}
+
+.featureddownload-title-line-left{
+    float: left;
+    width: 586px;
+    height: 0px;
+    padding-top: 15px;
+    border-bottom: 1px solid #000000;
+}
+
+
+.featureddownload-section-title h2{
+    float: left;
+    width: 280px;
+    height: 27px;
+    padding: 5px 20px 0;
+    font-size: 25px;
+    font-family: "MyFont-lt";
+    font-weight: lighter;
+}
+
+
+.featureddownload-title-line-right{
+    float: left;
+    width: 458px;
+    height: 0px;
+    padding-top: 15px;
+    border-bottom: 1px solid #000000;
+}
+
+.featureddownload-title-more-right{
+    display: block;
+    float: left;
+    width: 53px;
+    height: 19px;
+    font-size: 12px;
+    padding: 7px 35px 4px;
+    line-height: 19px;
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+.featureddownload-title-more-right:hover{
+    transition: all 0.3s;
+    color: #fff;
+    background-color: #000000;
+}
+
+/* 推荐下载列表 */
+.featureddownload-list{
+    height: 261px;
+
+}
+
+
+.featureddownload-list li{
+    float: left;
+    width: 350px;
+    height: 242px;
+}
+
+
+.featureddownload-list-other{
+    padding-left: 29px;
+}
+
+.featureddownload-list-img{
+    position: relative;
+    bottom: 0px;
+    height: 196px;
+    text-align: center;
+    margin-bottom: 15px;
+    transition: all 0.3s;
+}
+
+.featureddownload-list-img:hover{
+    bottom: 3px;
+}
+
+
+
+.featureddownload-list-img img{
+    height: 196px;
+}
+
+
+.featureddownload-list-title{
+    height: 11px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 11px;
+}
+
+.featureddownload-list-tagline{
+    height: 14px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.featureddownload-list-system{
+    height: 19px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'MyFont-lt';
+    line-height: 28px;
+}
+
+
+/* 底部栏 */
+.rockstar-footer{
+    float: left;
+    width: 100%;
+    height: 230px;
+    border-top: 3px solid #000;
+}
+
+/* 底部栏 顶部 */
+.footer-top{
+    width: 100%;
+    height: 27px;
+    margin-bottom: 36px;
+}
+
+/* 底部栏 顶部 左部 */
+.footer-top-left{
+    float: left;
+    width: 170px;
+    height: 30px;
+}
+
+.footer-top-left li{
+    float: left;
+    width: 29px;
+    height: 30px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+
+.footer-top-left li a{
+    display: block;
+    width: 29px;
+    height: 30px;
+    padding-top: 8px;
+}
+
+.footer-top-left li img{
+    width: 16px;
+    height: 16px;
+}
+
+
+/* 底部栏 顶部 中部 */
+.footer-top-center{
+    position: relative;
+    left: 258px;
+    float: left;
+    width: 721px;
+    height: 29px;
+}
+
+.footer-top-center li{
+    float: left;
+    height: 27px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.footer-top-center li a{
+    display: block;
+    height: 19px;
+    padding: 8px 4px 0;
+}
+
+/* 底部栏 顶部 右部 */
+.footer-top-right{
+    float: right;
+    width: 90px;
+    height: 19px;
+    padding: 8px 15px 4px;
+}
+
+.footer-top-right img{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+
+.footer-top-right span{
+    position: relative;
+    bottom: 7px;
+    font-size: 11.25px;
+}
+
+
+/* 底部栏 下部 */
+.footer-down{
+    width: 100%;
+    height: 132px;
+    text-align: center;
+}
+
+
+.footer-down img{
+    width: 83px;
+    height: 83px;
+}
+
+.footer-down-list{
+    position: relative;
+    left: 608px;
+    width: 100%;
+    height: 19px;
+    margin-top: 30px;
+}
+
+.footer-down-list li{
+    float: left;
+    margin-right: 30px;
+    font-size: 12px;
+    color: #000;
+}
