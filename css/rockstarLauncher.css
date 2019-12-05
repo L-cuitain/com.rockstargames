@@ -1,0 +1,296 @@
+@font-face{
+    font-family:  'MyFont-bold';
+    src: url(../fonts/DINNext-bold.woff);
+}
+
+@font-face{
+    font-family: 'MyFont-lt';
+    src: url(../fonts/DINNext-Lt.woff);
+}
+
+
+/* 加入俱乐部 顶部栏 */
+.topnav{
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+    margin-bottom: 100px;
+}
+
+
+/* 加入俱乐部 顶部栏 左部 */
+.topnav-left{
+    float: left;
+    width: 190px;
+    height: 60px;
+}
+
+
+.topnav-left span{
+    float: left;
+    display: block;
+    margin-left: 10px;
+    margin-top: 10px;
+    line-height: 60px;
+}
+
+.topnav-left span:first-child img{
+    width: 34px;
+    height: 32px;
+}
+
+.topnav-left span:nth-child(2) img{
+    width: 128px;
+    height: 36px;
+}
+
+
+/* 加入俱乐部 顶部栏 右部 */
+.topnav-right{
+    float: right;
+    width: 400px;
+    height: 60px;
+}
+
+
+.topnav-right a{
+    float: right;
+    width: 52px;
+    height: 60px;
+}
+
+.topnav-right a:first-child span{
+    display: block;
+    width: 16px;
+    height: 16px;
+    padding: 5px;
+    background-color: #1a1a1a;
+    border: 2px solid #1a1a1a;
+    border-radius: 50px;
+    margin-top: 16px;
+    margin-left: 10px;
+    transition: all 0.4s;
+}
+
+.topnav-right a:first-child i{
+    width: 16x;
+    height: 16px;
+    color: #fff;
+    line-height: 14px;
+}
+
+.topnav-right a:first-child:hover span{
+    border: 2px solid #fcaf17;
+}
+
+
+.topnav-right a:nth-child(2) span{
+    display: block;
+    width: 16px;
+    height: 16px;
+    padding: 5px;
+    background-color: #1a1a1a;
+    border: 2px solid #1a1a1a;
+    border-radius: 50px;
+    margin-top: 16px;
+    margin-left: 10px;
+    transition: all 0.4s;
+}
+
+.topnav-right a:nth-child(2) i{
+    width: 16x;
+    height: 16px;
+    color: #fff;
+    line-height: 14px;
+}
+
+.topnav-right a:nth-child(2):hover span{
+    border: 2px solid #fcaf17;
+}
+
+
+.topnav-right a:nth-child(3){
+    display: block;
+    width: 87px;    
+    height: 60px;
+    padding: 0 10px;
+    margin: 0 10px;
+    background-color: #fcaf17;
+}
+
+
+.topnav-right a:nth-child(3) span{
+    display: block;
+    width: 87px;
+    height: 12px;
+    text-align: center;
+    font-size: 12px;
+    color: #000;
+    font-family: 'MyFont-bold';
+    line-height: 47px;
+}
+
+.topnav-right a:nth-child(3):hover span{
+    color: #fff;
+}
+
+.topnav-right a:nth-child(4){
+    display: block;
+    width: 55x;
+    height: 56px;
+    color: #fff;
+    line-height: 14px;
+    text-align: center;
+    line-height: 56px;
+    color: #e09b14;
+    border-top: 4px solid #000;
+    transition: all 0.4px;
+}
+
+.topnav-right a:nth-child(4):hover{
+    border-top: 4px solid #fcaf17;
+}
+
+.topnav-right a:nth-child(5){
+    display: block;
+    width: 55x;
+    height: 56px;
+    color: #fff;
+    line-height: 14px;
+    text-align: center;
+    line-height: 56px;
+    color: #fff;
+    border-top: 4px solid #000;
+    transition: all 0.4px;
+}
+
+.topnav-right a:nth-child(5):hover{
+    border-top: 4px solid #fcaf17;
+}
+
+
+/* 加入俱乐部 主体内容 */
+.content{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 677px;
+}
+
+
+/* 加入俱乐部 内容 左部 */
+.rockstarLauncher-content-left{
+    float: left;
+    width: 520px;
+    height: 677px;
+    padding: 0 20px;
+}
+
+.rockstarLauncher-content-left img{
+    width: 337px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+
+.rockstarLauncher-content-left p{
+    width: 340px;
+    height: 62px;
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 32px;
+}
+
+.rockstarLauncher-content-left a{
+    display: block;
+    width: 128px;
+    height: 20px;
+    padding: 15px 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    line-height: 20px;
+    background-color: #fcaf17;
+    border-radius: 3px;
+}
+
+.rockstarLauncher-content-left a:hover{
+    background-color: #f7931e;
+}
+
+.launcher-title{
+    width: 520px;
+    height: 52px;
+    padding: 10px 0;
+    margin-bottom: 40px;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+
+.launcher-title-list{
+    float: left;
+    width: 110px;
+    height: 32px;
+    margin: 10px;
+}
+
+.launcher-title-list img{
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+
+.launcher-title-list span{
+    float: left;
+    width: 70px;
+    height: 32px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.launcher-news{
+    float: left;
+    position: relative;
+    right: 127px;
+    width: 440px;
+    height: 111px; 
+    padding: 20px;
+    padding-left: 127px;
+    margin-bottom: 30px;
+    background-color: #fcaf17;
+    border-radius: 3px;
+}
+
+.launcher-news span{
+    float: left;
+    display: block;
+    width: 300px;
+    height: 41px;
+    font-size: 16px;
+}
+
+.launcher-news img{
+    width: 90px;
+    height: 111px;
+    margin-left: 50px;
+}
+
+.rockstarLauncher-content-right{
+    position: absolute;
+    top: 0px;
+    left: 620px;
+    float: left;
+    width: 1224.5px;
+    height: 570px;
+}
+
+.rockstarLauncher-content-right img{
+    width: 1224.5px;
+    height: 570px;
+    border-radius: 3px;
+}
+

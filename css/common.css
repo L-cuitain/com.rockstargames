@@ -34,6 +34,20 @@
   width: 500px;
 }
 
+/* rockstarLauncher页面版心 */
+.rockstarLauncher-container{
+  position: relative;
+  margin: 0 auto;
+  width: 1420px;
+}
+
+
+/* rockstar-videos版心 */
+.rockstar-videos-container{
+  position: relative;
+  margin: 0 auto;
+  width: 1226px;
+}
 
 
 

@@ -2,7 +2,7 @@
 .content{
     width: 100%;
     height: 761px;
-    background-image: url(../img/bg-repeat.png);
+    background-image: url(../img/login/bg-repeat.png);
 }
 
 /* 登录内容 */
@@ -70,6 +70,7 @@
 
 .keep-login{
     float: left;
+    position: relative;
     width: 100%;
     height: 20px;
     margin: 20px 0 20px;
@@ -77,14 +78,52 @@
     line-height: 20px;
 }
 
-.keep-login div{
+.keep-login input{
+    position:absolute;
+    clip:rect(0,0,0,0);  /*clip 属性剪裁绝对定位元素。*/
     float: left;
     width: 18px;
     height: 18px;
-    border: 1px solid #000;
-    border-radius: 2px;
-    margin-right: 10px;
+}   
+
+
+.keep-login input[type="checkbox"] + label::before{
+    content: "";
+    display: inline-block;
+    background: #fff;
+    border-color: rgba(77,77,77,.3);
+    border-radius: 3px;
+    border: 1px solid;
+    height: 18px;
+    left: 0;
+    top: 0;
+    width: 18px;
 }
+
+
+.keep-login input[type="checkbox"]:checked + label::after{
+    content: "";
+    display: inline-block;
+    position: relative;
+    height: .375rem;
+    width: .75rem;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    border-color: #333;
+    -webkit-transform: rotate(-50deg);
+    transform: rotate(-50deg);
+    left: -21.5px;
+    top: -8px;
+}
+
+.keep-login p{
+    position: absolute;
+    bottom: -1px;
+    width: 430px;
+    height: 20px;
+    padding-left: 30px;
+}
+
 
 .sign{
     width: 100%;
@@ -164,35 +203,35 @@
 
 
 .login-UI a span:first-child{
-    background-image: url(../img/icon.png);
+    background-image: url(../img/login/icon.png);
     background-repeat: no-repeat;
     background-size: 35px 440px;
     background-position: 1px -121px;
 }
 
 .login-UI a:nth-child(2) span{
-    background-image: url(../img/icon.png);
+    background-image: url(../img/login/icon.png);
     background-repeat: no-repeat;
     background-size: 35px 440px;
     background-position: 1px -161px;
 }
 
 .login-UI a:nth-child(3) span{
-    background-image: url(../img/icon.png);
+    background-image: url(../img/login/icon.png);
     background-repeat: no-repeat;
     background-size: 35px 440px;
     background-position: 1px 1px;
 }
 
 .login-UI a:nth-child(4) span{
-    background-image: url(../img/icon.png);
+    background-image: url(../img/login/icon.png);
     background-repeat: no-repeat;
     background-size: 35px 440px;
     background-position: 1px -80px;
 }
 
 .login-UI a:nth-child(5) span{
-    background-image: url(../img/icon.png);
+    background-image: url(../img/login/icon.png);
     background-repeat: no-repeat;
     background-size: 35px 440px;
     background-position: 1px -40px;
