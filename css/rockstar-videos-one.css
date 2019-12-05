@@ -223,7 +223,7 @@ body{
     height: 17.6px;
     padding-bottom: 2px;
     margin-bottom: 5px;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: bold;
     color: #fff;
 }
@@ -234,7 +234,7 @@ body{
     color: #fff;
     font-family: 'Microsoft YaHei';
     font-weight: inherit;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 
@@ -243,7 +243,7 @@ body{
     height: 17.6px;
     color: #898989;
     font-family: 'Microsoft YaHei';
-    font-size: 12px;
+    font-size: 13px;
 }
 
 
@@ -254,7 +254,7 @@ body{
     padding: 0 15px;
     margin-top: 20px;
     font-family: 'Microsoft YaHei';
-    font-size: 12px;
+    font-size: 13px;
     color: #fff;
     line-height: 16px;
 }
