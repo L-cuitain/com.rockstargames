@@ -23,10 +23,9 @@ body{
 
 .rockstar-top-title{
     float: left;
-    width: 1300px;
+    width: 900px;
     height: 49.2px;
-    padding-left: 47px;
-
+    padding-left: 212px;
 }
 
 
@@ -54,7 +53,7 @@ body{
 }
 
 
-.rockstar-top-title ul li:first-child{
+.rockstar-top-title ul li:nth-child(3){
     border-bottom: 3px solid #000000;
 }
 

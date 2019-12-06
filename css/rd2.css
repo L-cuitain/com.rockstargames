@@ -1,0 +1,248 @@
+@font-face{
+    font-family:  'MyFont-bold';
+    src: url(../fonts/DINNext-bold.woff);
+}
+
+@font-face{
+    font-family: 'MyFont-lt';
+    src: url(../fonts/DINNext-Lt.woff);
+}
+
+body{
+    font-family: 'MyFont-bold';
+}
+
+
+/* 顶部栏 */
+.rockstar-top{
+    float: left;
+    width: 100%;
+    height: 150px;
+}
+
+
+.rockstar-top-title{
+    float: left;
+    width: 900px;
+    height: 49.2px;
+    padding-left: 212px;
+}
+
+
+.rockstar-top-logo{
+    height: 75px;
+    margin: 20px 722.100px 3px;
+}
+
+
+.rockstar-top-title ul{
+    list-style-type: none;
+    margin-left: 277px;
+}
+
+
+.rockstar-top-title ul li{
+    height: 16;
+    float: left;
+    margin-right: 20px;
+    padding: 15px 4px;
+}
+
+.rockstar-top-title ul i{
+    margin-bottom: 5px;
+}
+
+
+.rockstar-top-title ul li:first-child{
+    border-bottom: 3px solid #000000;
+}
+
+
+.rockstar-top-title ul li:hover{
+    transition: all 0.3s;
+    border-bottom: 3px solid #000000;
+}
+
+
+.rockstar-top-title ul li a{
+    font-size: 15px;
+    color: #000000;
+}
+
+/* 右侧登录 */
+.rockstar-right-login{
+    float: right;
+    width: 90px;
+    height: 25.6px;
+    padding: 5px;
+    margin-top: 6px;
+    font-family: 'MyFont-lt';
+    font-weight: bold;
+    background-color: #000000;
+}
+
+.rockstar-right-login div{
+    float: right;
+    font-size: 7px;  
+    color: #777777;
+}
+
+
+.rockstar-right-login a{
+    float: left;
+    font-size: 4px;
+}
+
+
+
+.rockstar-right-sign{
+    color: #ffffff;
+    margin-left: 45px;
+    font-weight: inherit;
+}
+
+.rockstar-right-sign:hover{
+    color: #ffffff;
+}
+
+
+.rockstar-right-join{
+    color: #F0A000;
+    padding-left: 13px;
+    padding-top: 4px;
+}
+
+.rockstar-right-join:hover{
+    color: #F0A000;
+}
+
+/* 创建时间栏 */
+.rockstar-since{
+    float: left;
+    width: 100%;
+    height: 30px;
+    background-color: #000000;
+    margin-bottom: 15px;
+}
+
+.rockstar-center-row{
+    width: 100%;
+    height: 4px;
+    padding-top: 6px;
+}
+
+.rockstar-since-left{
+    float: left;
+    width: 223px;
+    height: 4px;
+    /* padding: 0px 15px; */
+}
+
+.rockstar-since-left-nav{
+    float: left;
+    width: 221px;
+    height: 20px;
+    color: #ffffff;
+    font-family: 'MyFont-bold';
+    font-size: 11px;
+}
+
+
+.rockstar-since-center{
+    float: left;
+    width: 983px;
+    height: 4px;
+    padding: 0px 15px;
+}
+
+
+.rockstar-since-center-nav{
+    float: left;
+    width: 983px;
+    height: 19.2px;
+    color: #ffffff;
+    font-family: 'MyFont-bold';
+    font-size: 11px;
+    text-align: center;
+}
+
+
+.rockstar-since-right{
+    float: right;
+    height: 4px;
+}
+
+
+.rockstar-since-right-nav{
+    height: 19.2px;
+    color: #ffffff;
+    font-family: 'MyFont-bold';
+    font-size: 11px;
+    text-align: right;
+}
+
+
+/* rd2主体内容 */
+.rd2-main{
+    width: 100%;
+    height: 2295px;
+}
+
+
+/* rd2主体内容左  */
+.rd2-main-left{
+    float: left;
+    width: 744px;
+    height: 2295px;
+}
+
+
+.rd2-main-img{
+    float: left;
+    width: 715px;
+    height: 600px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.rd2-main-img img{
+    height: 488px;
+}
+
+
+/* rd2主体内容右 */
+.rd2-main-right{
+    float: left;
+    width: 744px;
+    height: 2295px;
+}
+
+
+.right-topnav{
+    float: left;
+    width: 684.6px;
+    height: 43px;
+    margin: 25px 0 15px;
+    font-size: 48px;
+    letter-spacing: -.03em;
+    font-weight: bold;
+    font-family: 'MyFont-bold',sans-serif;
+    color: #000;
+    text-align: center;
+}
+
+
+.right-links{
+    float: left;
+    width: 684.6px;
+    height: 136px;   
+}
+
+.right-rd2link{
+    width: 322.5px;
+    height: 19.2px;
+    padding: 10px 35px 5px;
+    background-color: #000;
+    color: #fff;
+}
+

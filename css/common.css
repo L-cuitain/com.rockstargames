@@ -50,6 +50,14 @@
 }
 
 
+/* rockstar-news版心 */
+.rockstar-news-container{
+  position: relative;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+
 
 /* 字体图标 */
 @font-face {

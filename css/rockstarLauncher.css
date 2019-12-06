@@ -284,13 +284,16 @@
     top: 0px;
     left: 620px;
     float: left;
-    width: 1224.5px;
+    width: 849px;
     height: 570px;
+    background-image: url(../img/rockLuncher/rgl-rdr2-buynow.png);
+    background-repeat: no-repeat;
+    background-size: 144% 100%;
 }
 
-.rockstarLauncher-content-right img{
+/* .rockstarLauncher-content-right img{
     width: 1224.5px;
     height: 570px;
     border-radius: 3px;
-}
+} */
 
