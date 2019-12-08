@@ -1,0 +1,734 @@
+@font-face {
+    font-family: 'MyFont-bold';
+    src: url(../fonts/DINNext-bold.woff);
+}
+
+@font-face {
+    font-family: 'MyFont-lt';
+    src: url(../fonts/DINNext-Lt.woff);
+}
+
+body {
+    font-family: 'MyFont-bold';
+}
+
+
+/* 顶部栏 */
+.rockstar-top {
+    float: left;
+    width: 100%;
+    height: 150px;
+}
+
+
+.rockstar-top-title {
+    float: left;
+    width: 900px;
+    height: 49.2px;
+    padding-left: 212px;
+}
+
+
+.rockstar-top-logo{
+    height: 75px;
+    margin: 20px 714.100px 3px;
+}
+
+
+.rockstar-top-title ul {
+    list-style-type: none;
+    margin-left: 277px;
+}
+
+
+.rockstar-top-title ul li {
+    height: 16;
+    float: left;
+    margin-right: 20px;
+    padding: 15px 4px;
+}
+
+.rockstar-top-title ul i {
+    margin-bottom: 5px;
+}
+
+
+.rockstar-top-title ul li:nth-child(5) {
+    border-bottom: 3px solid #000000;
+}
+
+
+.rockstar-top-title ul li:hover {
+    transition: all 0.3s;
+    border-bottom: 3px solid #000000;
+}
+
+
+.rockstar-top-title ul li a {
+    font-size: 15px;
+    color: #000000;
+}
+
+/* 右侧登录 */
+.rockstar-right-login {
+    float: right;
+    width: 90px;
+    height: 25.6px;
+    padding: 5px;
+    margin-top: 6px;
+    font-family: 'MyFont-lt';
+    font-weight: bold;
+    background-color: #000000;
+}
+
+.rockstar-right-login div {
+    float: right;
+    font-size: 7px;
+    color: #777777;
+}
+
+
+.rockstar-right-login a {
+    float: left;
+    font-size: 4px;
+}
+
+
+
+.rockstar-right-sign {
+    color: #ffffff;
+    margin-left: 45px;
+    font-weight: inherit;
+}
+
+.rockstar-right-sign:hover {
+    color: #ffffff;
+}
+
+
+.rockstar-right-join {
+    color: #F0A000;
+    padding-left: 13px;
+    padding-top: 4px;
+}
+
+.rockstar-right-join:hover {
+    color: #F0A000;
+}
+
+/* 创建时间栏 */
+.rockstar-since {
+    float: left;
+    width: 100%;
+    height: 30px;
+    background-color: #000000;
+}
+
+.rockstar-center-row {
+    width: 100%;
+    height: 4px;
+    padding-top: 6px;
+}
+
+.rockstar-since-left {
+    float: left;
+    width: 223px;
+    height: 4px;
+    /* padding: 0px 15px; */
+}
+
+.rockstar-since-left-nav {
+    float: left;
+    width: 221px;
+    height: 20px;
+    color: #ffffff;
+    font-family: 'MyFont-bold';
+    font-size: 11px;
+}
+
+
+.rockstar-since-center {
+    float: left;
+    width: 983px;
+    height: 4px;
+    padding: 0px 15px;
+}
+
+
+.rockstar-since-center-nav {
+    float: left;
+    width: 983px;
+    height: 19.2px;
+    color: #ffffff;
+    font-family: 'MyFont-bold';
+    font-size: 11px;
+    text-align: center;
+}
+
+
+.rockstar-since-right {
+    float: right;
+    height: 4px;
+}
+
+
+.rockstar-since-right-nav {
+    height: 19.2px;
+    color: #ffffff;
+    font-family: 'MyFont-bold';
+    font-size: 11px;
+    text-align: right;
+}
+
+
+/* 新闻板块 */
+.new {
+    float: left;
+    width: 100%;
+    height: 3049px;
+    padding: 40px 0;
+    /* text-align: center; */
+}
+
+/* 顶部 */
+.new-top-nav {
+    /* width: 970px; */
+    height: 19px;
+    /* padding: 0 15px; */
+    margin: 0 40px 10px 390px;
+    text-align: center;
+}
+
+.new-top-nav li {
+    float: left;
+    padding: 0 10px;
+    font-size: 11.25px;
+    color: #000;
+}
+
+/* 顶部 标题 */
+.new-top-title {
+    width: 1100px;
+    height: 180px;
+    margin-bottom: 30px;
+}
+
+.new-top-title h1 {
+    width: 970px;
+    padding: 0 15px;
+    margin: 0 0 10px 100px;
+    font-family: 'MyFont-bold', sans-serif;
+    font-size: 65px;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.new-top-title h1 span {
+    display: block;
+    /* padding: 8px 79px 0; */
+    font-size: 39px;
+}
+
+
+/* 新闻主体 */
+.new-main {
+    width: 100%;
+    height: 2849px;
+}
+
+/* 新闻内容左 */
+.main-content-left {
+    float: left;
+    width: 770px;
+    height: 2849px;
+    margin-left: 100px;
+    padding: 0 15px;
+}
+
+.main-content-text{
+    margin: 0 22.5px 24px;
+    font-size: 17px;
+    font-family: "Microsoft YaHei", "方正兰亭黑_GB18030", "方正兰亭黑_GBK", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+    text-align: left;
+}
+
+
+.main-content-left img {
+    width: 720px;
+    height: 405px;
+}
+
+
+.new-main-bottom-list {
+    width: 690px;
+    height: 19px;
+    padding: 0 15px;
+    margin: 40px 22.5px 10px;
+    text-align: center;
+}
+
+.new-main-bottom-list li {
+    position: relative;
+    left: 143px;
+    float: left;
+    padding: 0 8px;
+}
+
+
+.new-main-time {
+    width: 735px;
+    height: 19px;
+    padding: 0 15px;
+    margin-bottom: 35px;
+    text-align: center;
+    color: #999999;
+    font-family: "Microsoft YaHei", "方正兰亭黑_GB18030", "方正兰亭黑_GBK", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+}
+
+
+.social-likes{
+    width: 735px;
+    height: 30px;
+    margin: 0 17.5px 30px;
+}
+
+.social-likes-item{
+    float: left;
+    position: relative;
+    left: 311px;
+    width: 110px;
+    height: 20px;
+    margin-bottom: 5px;
+    background-color: #fcaf1a;
+    border-radius: 3px;
+}
+
+.social-likes-item:hover{
+    background-color: #fdc353;
+}
+
+
+.social-likes-item i{
+    float: left;
+    width: 16px;
+    height: 16px;
+    color: #fff;
+}
+
+.social-likes-item p{
+    float: left;
+    width: 65px;
+    padding: 0 3px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 21px;
+}
+
+.social-likes-item span{
+    float: left;
+    font-size: 12px;
+    color: #fff;
+    line-height: 21px;
+}
+
+
+.stories{
+    width: 770px;
+    height: 19px;
+    margin-bottom: 30px;
+}
+
+.stories span{
+    float: left;
+    width: 100px;
+    height: 12px;
+    padding: 5px 20px 0;
+}
+
+.stories-line-left{
+    float: left;
+    width: 309px;
+    border: 1px solid #000;
+    margin-top: 9px;
+}
+
+.stories-line-right{
+    float: left;
+    width: 309px;
+    border: 1px solid #000;
+    margin-top: 9px;
+}
+
+
+.stories-list{
+    width: 770px;
+    height: 155px;
+    margin-bottom: 60px;
+}
+
+
+.stories-list li{
+    float: left;
+    width: 168px;
+    height: 155px;
+}
+
+.stories-list-first{
+    padding-right: 15px;
+}
+
+.stories-list-others{
+    padding: 0 15px;
+}
+
+.stories-list-last{
+    padding-left: 15px;
+}
+
+
+.stories-list li img{
+    position: relative;
+    bottom: 0;
+    width: 168px;
+    height: 85px;
+    transition: all 0.3s;
+}
+
+.stories-list li img:hover{
+    bottom: 3px;
+}
+
+
+/* 新闻内容右  */
+.main-content-right{
+    float: left;
+    width: 270px;
+    height: 1058px;
+    padding: 0 15px 0 14px;
+    border-left: 1px solid #e5e5e5;
+}
+
+.right-topnav{
+    float: left;
+    width: 265px;
+    height: 474px;
+}
+
+
+.right-top-title{
+    float: left;
+    width: 265px;
+    height: 12px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #000;
+}
+
+.right-top-title-icon{
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.right-top-title-icon img{
+    width: 16px;
+    height: 16px;
+}
+
+.right-top-title-icon span{
+    float: left;
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+}
+
+.right-top-title-img{
+    float: left;
+    width: 265px;
+    height: 327px;
+    background-image: url(../img/news/reddeadredemption2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 10px;
+}
+
+
+.site{
+    float: left;
+    width: 239px;
+    height: 18px;
+    padding: 6px 12px 3px;
+    border: 1px solid #000;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    background-color: #000;
+}
+
+.site:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+.buy{
+    float: left;
+    width: 239px;
+    height: 19px;
+    padding: 10px 12px 7px;
+    border: 1px solid #000;
+    margin: 5px 0 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    background-color: #000;
+}
+
+.buy:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+.right-centernav{
+    float:left;
+    width: 265px;
+    height: 185px;
+    margin-bottom: 40px;
+}
+
+.right-center-title{
+    float: left;
+    width: 265px;
+    height: 14px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #000;
+}
+
+.right-center-title-icon{
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    background-image: url(../img/news/news_sprite.png);
+    background-repeat: no-repeat;
+    background-position: 0px -49px;
+    background-size: 18px 98px;
+}
+
+
+.right-center-title span{
+    float: left;
+    display: block;
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+.right-center-title p{
+    float: left;
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: "Microsoft YaHei","方正兰亭黑_GB18030","方正兰亭黑_GBK",-apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+}
+
+.sign{
+    float: left;
+    width: 239px;
+    height: 20px;
+    padding: 6px 12px 3px;
+    border: 1px solid #000;
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sign:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+
+.right-rightnav{
+    float: left;
+    width: 265px;
+    height: 322px;
+}
+
+
+.right-rightnav-title{
+    float: left;
+    width: 265px;
+    height: 14px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #000;
+}
+
+
+.right-rightnav-title-icon{
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    background-image: url(../img/news/news_sprite.png);
+    background-repeat: no-repeat;
+    background-position: 0px -33px;
+    background-size: 18px 98px;
+}
+
+.right-rightnav-title span{
+    float: left;
+    display: block;
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+
+.right-rightnav-main{
+    float: left;
+    width: 265px;
+    height: 297px;
+    margin-top: 10px;
+    color: #333333;
+}
+
+.right-rightnav-main p{
+    float: left;
+    font-family: "Microsoft YaHei","方正兰亭黑_GB18030","方正兰亭黑_GBK",-apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-size: 12.15px;
+    margin-bottom: 20px;
+}
+
+.right-rightnav-main p a{
+    color: #000;
+}
+
+.right-rightnav-main p a:hover{
+    color: #666666;
+}
+
+
+/* 底部栏 */
+.rockstar-footer{
+    float: left;
+    width: 100%;
+    height: 230px;
+    border-top: 3px solid #000;
+}
+
+/* 底部栏 顶部 */
+.footer-top{
+    width: 100%;
+    height: 27px;
+    margin-bottom: 36px;
+}
+
+/* 底部栏 顶部 左部 */
+.footer-top-left{
+    float: left;
+    width: 170px;
+    height: 30px;
+}
+
+.footer-top-left li{
+    float: left;
+    width: 29px;
+    height: 30px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+
+.footer-top-left li a{
+    display: block;
+    width: 29px;
+    height: 30px;
+    padding-top: 8px;
+}
+
+.footer-top-left li img{
+    width: 16px;
+    height: 16px;
+}
+
+
+/* 底部栏 顶部 中部 */
+.footer-top-center{
+    position: relative;
+    left: 258px;
+    float: left;
+    width: 721px;
+    height: 29px;
+}
+
+.footer-top-center li{
+    float: left;
+    height: 27px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.footer-top-center li a{
+    display: block;
+    height: 19px;
+    padding: 8px 4px 0;
+    color: #000;
+}
+
+/* 底部栏 顶部 右部 */
+.footer-top-right{
+    float: right;
+    width: 90px;
+    height: 19px;
+    padding: 8px 15px 4px;
+}
+
+.footer-top-right img{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+
+.footer-top-right span{
+    position: relative;
+    bottom: 7px;
+    font-size: 11.25px;
+    color: #000;
+}
+
+
+/* 底部栏 下部 */
+.footer-down{
+    width: 100%;
+    height: 132px;
+    text-align: center;
+}
+
+
+.footer-down img{
+    width: 83px;
+    height: 83px;
+}
+
+.footer-down-list{
+    width: 100%;
+    height: 19px;
+    margin-top: 30px;
+}
+
+.footer-down-list li{
+    position: relative;
+    left: 600px;
+    float: left;
+    margin-right: 30px;
+    font-size: 12px;
+    color: #000;
+}
